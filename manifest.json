@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Legal Policy Assistant",
+  "name": "TrustAdvisor",
   "version": "1.0",
   "description": "Analyse et résume les conditions d'utilisation et politiques de confidentialité.",
   "permissions": ["storage", "tabs", "activeTab", "scripting"],
