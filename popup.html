@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Legal Policy Assistant</title>
+  <style>
+    body {
+      width: 450px;
+      min-height: 200px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    h2 {
+      margin: 0 0 10px 0;
+      font-size: 18px;
+      color: #333;
+    }
+    #controls {
+      margin-bottom: 15px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #summary {
+      white-space: pre-wrap;
+      max-height: 400px;
+      overflow-y: auto;
+      padding: 10px;
+      background-color: #f5f5f5;
+      border-radius: 4px;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <h2>📋 Résumé des politiques</h2>
+  <div id="controls">
+    <button id="refreshBtn">🔍 Analyser cette page</button>
+  </div>
+  <div id="summary">Chargement...</div>
+  <script src="popup.js"></script>
+</body>
+</html>
